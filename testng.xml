@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WikiScraperSuite">
+    <test name="WikiScraperTest">
+        <parameter name="url" value="https://en.wikipedia.org/wiki/OpenAI" />
+        <parameter name="n" value="2" />
+        <classes>
+            <class name="Wikipedia.Wikipedia.WikiScraperTest" />
+        </classes>
+    </test>
+</suite>
